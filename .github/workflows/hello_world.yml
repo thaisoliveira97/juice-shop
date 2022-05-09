@@ -42,3 +42,10 @@ jobs:
     steps:
          - name: Print hello world
            run: echo "Hello world Windows"
+  
+  hello-world-macos:
+    runs-on: macos-latest
+    
+    steps:
+    - name: Print hello world
+      run: echo Hello World
