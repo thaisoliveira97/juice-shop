@@ -37,6 +37,7 @@ jobs:
           
   hello-world-windows:
     runs-on: windows-latest
+    needs: hello-world
   
     steps:
          - name: Print Hello world
